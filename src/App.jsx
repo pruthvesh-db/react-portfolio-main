@@ -4,7 +4,6 @@ import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
 import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
-import { Homepage } from "./components/Homepage/Homepage";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
 import { Pruthvesh } from "./components/Pruthvesh";
