@@ -1,34 +1,42 @@
 [
   {
     "name": "Pruthvesh Chocha",
-    "imageSrc": "hero/pruthvesh1.png",
+    "imageSrc": "hero/pruthvesh.jpeg",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],
     "demo": "/pruthvesh",
     "source": "https://www.github.com"
   },
   {
-    "name": "Project B",
-    "imageSrc": "projects/project.png",
+    "name": "Parth Kaneriya",
+    "imageSrc": "hero/parth.jpeg",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
+    "demo": "/parth",
     "source": "https://www.github.com"
   },
   {
-    "name": "Project C",
-    "imageSrc": "projects/project.png",
+    "name": "Sanket Kalariya",
+    "imageSrc": "hero/sanket.jpeg",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "demo": "/sanket",
     "source": "https://www.github.com"
   },
   {
-    "name": "Project B",
-    "imageSrc": "projects/project.png",
+    "name": "Kuldip Patel",
+    "imageSrc": "hero/kuldip.jpeg",
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
+    "demo": "/kuldip",
+    "source": "https://www.github.com"
+  },
+  {
+    "name": "Nisarg Patel",
+    "imageSrc": "hero/nisarg.jpeg",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node", "Sass"],
+    "demo": "/nisarg",
     "source": "https://www.github.com"
   }
 ]
