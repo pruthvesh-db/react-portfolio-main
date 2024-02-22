@@ -7,15 +7,19 @@ import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
 import { Pruthvesh } from "./components/Pruthvesh";
-import { Landing } from "./components/Landing";
+
+import { Portfolio } from "./components/Portfolio";
 
 function App() {
   return (
     <Router>
     <div className={styles.App}>
       <Routes>
-      <Route path="/pruthvesh" element={<Pruthvesh />} />
-      <Route path="/" element={<Projects />} />
+      {/* <Route path="/pruthvesh" element={<Pruthvesh />} />
+      <Route path="/parth" element={<Pruthvesh />} /> */}
+       <Route path="/" exact element={<Projects />} />
+       <Route path="/portfolio/:id" element={<Portfolio />} />
+      {/* <Route path="/" element={<Projects />} /> */}
       </Routes>
       {/* <Landing /> */}
     </div>

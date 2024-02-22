@@ -1,0 +1,38 @@
+[
+    {
+        "id": "pruthvesh",
+        "title": "Frontend Developer",
+        "iconUrl": "about/cursorIcon.png",
+        "description": "I'm a frontend developer with experience in building responsive and optimized sites"
+    },
+    {
+        "id": "pruthvesh",
+        "title": "Backend Developer",
+        "iconUrl": "about/serverIcon.png",
+        "description": "I have experience developing fast and optimised back-end systems and APIs"
+    },
+    {
+        "id": "pruthvesh",
+        "title": "IOT System Designer",
+        "iconUrl": "about/iotIcon.png",
+        "description": "I have designed multiple Systems for Industrial Monitoring and Visualization."
+    },
+    {
+        "id": "parth",
+        "title": "Database Handler",
+        "iconUrl": "about/serverIcon.png",
+        "description": "Test content for discription also checking the length of content"
+    },
+    {
+        "id": "parth",
+        "title": "React Master",
+        "iconUrl": "about/cursorIcon.png",
+        "description": "Test content for discription also checking the length of content"
+    },
+    {
+        "id": "parth",
+        "title": "Test Title",
+        "iconUrl": "about/cursorIcon.png",
+        "description": "Test content for discription also checking the length of content"
+    }
+]

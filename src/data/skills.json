@@ -1,30 +1,52 @@
 [
-  {
+  { 
+    "id": "pruthvesh",
     "title": "Node",
     "imageSrc": "skills/node.png"
   },
   {
+    "id": "parth",
     "title": "React",
     "imageSrc": "skills/react.png"
   },
   {
+    "id": "pruthvesh",
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
   },
   {
+    "id": "pruthvesh",
     "title": "Node RED",
     "imageSrc": "skills/nodered1.png"
   },
   {
+    "id": "pruthvesh",
     "title": "My SQL",
     "imageSrc": "skills/mysql.png"
   },
   {
+    "id": "pruthvesh",
     "title": "HTML",
     "imageSrc": "skills/html.png"
   },
   {
+    "id": "parth",
     "title": "CSS",
     "imageSrc": "skills/css.png"
+  },
+  {
+    "id": "parth",
+    "title": "Node RED",
+    "imageSrc": "skills/nodered1.png"
+  },
+  {
+    "id": "parth",
+    "title": "My SQL",
+    "imageSrc": "skills/mysql.png"
+  },
+  {
+    "id": "parth",
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
   }
 ]

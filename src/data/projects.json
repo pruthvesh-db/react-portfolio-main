@@ -1,42 +1,57 @@
 [
   {
+    "id": "pruthvesh",
     "name": "Pruthvesh Chocha",
+    "tagline": "I specialize in creating robust backend solutions using Node.js, Express.js, and various databases.",
+    "selfIntro": "Hi, I am Pruthvesh",
     "imageSrc": "hero/pruthvesh.jpeg",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "/pruthvesh",
-    "source": "https://www.github.com"
+    "emailId": "chochapruthvesh@gmail.com",
+    "contact": "+91 94082 88929",
+    "linkedIn": "linkedin.com/in/pruthveshchocha/",
+    "github": "github.com/pruthveshchocha"
   },
   {
+    "id": "parth",
     "name": "Parth Kaneriya",
+    "selfIntro": "Hi, I am Parth",
+    "tagline": "Test for tagline attribute working.",
     "imageSrc": "hero/parth.jpeg",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "/parth",
-    "source": "https://www.github.com"
+    "emailId": "https://www.github.com",
+    "contact": "+91 79908 31039",
+    "linkedIn": "linkedin.com/in/kaneriyaparth/",
+    "github": "github.com/parthkk17"
   },
   {
+    "id": 3,
     "name": "Sanket Kalariya",
+    "selfIntro": "Hi, I am Sanket",
+    "tagline": "Test for tagline attribute working.",
     "imageSrc": "hero/sanket.jpeg",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "/sanket",
-    "source": "https://www.github.com"
+    "emailId": "https://www.github.com",
+    "contact": "",
+    "linkedIn": "",
+    "github": ""
   },
   {
+    "id": 4,
     "name": "Kuldip Patel",
+    "selfIntro": "Hi, I am Kuldipkumar",
+    "tagline": "Test for tagline attribute working.",
     "imageSrc": "hero/kuldip.jpeg",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "/kuldip",
-    "source": "https://www.github.com"
+    "emailId": "https://www.github.com",
+    "contact": "",
+    "linkedIn": "",
+    "github": ""
   },
   {
+    "id": 5,
     "name": "Nisarg Patel",
+    "selfIntro": "Hi, I am Nisarg",
+    "tagline": "Test for tagline attribute working.",
     "imageSrc": "hero/nisarg.jpeg",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "/nisarg",
-    "source": "https://www.github.com"
+    "emailId": "https://www.github.com",
+    "contact": "",
+    "linkedIn": "",
+    "github": ""
   }
 ]

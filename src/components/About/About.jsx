@@ -2,8 +2,13 @@ import React from "react";
 
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
+import abouts from "../../data/about.json";
+import { useParams } from 'react-router-dom';
 
 export const About = () => {
+
+  const { id } = useParams();
+
   return (
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
@@ -14,35 +19,21 @@ export const About = () => {
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+          
+          {abouts.map((about, index) => {
+
+          return about.id == id  && <li key={index} className={styles.aboutItem}>
+
+            <img src={getImageUrl(about.iconUrl)} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>{about.title}</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                {about.description}
               </p>
             </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
-              <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/iotIcon.png")} alt="IOT icon" />
-            <div className={styles.aboutItemText}>
-              <h3>IOT System Designer</h3>
-              <p>
-                I have designed multiple Systems for Industrial Monitoring and Visualization.
-              </p>
-            </div>
-          </li>
+
+          </li>  
+        })}
         </ul>
       </div>
     </section>

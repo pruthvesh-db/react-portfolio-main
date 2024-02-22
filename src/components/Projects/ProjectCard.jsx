@@ -3,9 +3,12 @@ import {  BrowserRouter as Router, Route, Link, Routes} from "react-router-dom";
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
+
 export const ProjectCard = ({
-  project: { name, imageSrc, description, skills, demo, source },
+  
+  project: {id, name, imageSrc, description, skills, demo, source },
 }) => {
+  
   return (
     
 
@@ -36,7 +39,9 @@ export const ProjectCard = ({
         {/* <a className={styles.link}> */}
         
             <a className={styles.link}>
-              <Link to={demo}> Visit Profile </Link>
+              <li key={id}>
+              <Link to={`/portfolio/${id}`}> Visit Profile </Link>
+              </li>
             </a>
       </div>
     </div>
