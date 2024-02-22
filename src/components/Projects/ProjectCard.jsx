@@ -11,40 +11,25 @@ export const ProjectCard = ({
   
   return (
     
-
-    <div className={styles.container}>
-      <img
-        src={getImageUrl(imageSrc)}
-        alt={`Image of ${name}`}
-        className={styles.image}
-      />
-      <h3 className={styles.nametitle}>{name}</h3>
-      <p className={styles.description}>{description}</p>
-      {/* <ul className={styles.skills}>
-        {skills.map((skill, id) => {
-          return (
-            <li key={id} className={styles.skill}>
-              {skill}
-            </li>
-          );
-        })}
-      </ul> */}
-      
- 
-      <div className={styles.links}>    
-     
-        {/* <a href={demo} className={styles.link}>
-          Visit Profile
-        </a> */}
-        {/* <a className={styles.link}> */}
-        
-            <a className={styles.link}>
-              <li key={id}>
-              <Link to={`/portfolio/${id}`}> Visit Profile </Link>
-              </li>
-            </a>
+    <div className={`${styles.wrapper} ${styles.anim}`}>
+      <div className={styles.imgArea}>
+        <div className={styles.innerArea}>
+          <img src={getImageUrl(imageSrc)} alt="" />
+        </div>
       </div>
-    </div>
+      <div className={styles.name}>{name}</div>
+      <div className={styles.about}>{description}</div>
+      <div className={styles.socialIcons}>
+        <a href="#" className={styles.fb}><i className="fab fa-facebook-f"></i></a>
+        <a href="#" className={styles.twitter}><i className="fab fa-twitter"></i></a>
+        </div>
+      <div className={styles.buttons}>
+       
+        <button><Link to={`/portfolio/${id}`} > Visit Profile </Link></button>
+      </div>
+      
+        </div>
+
 
   );
 };

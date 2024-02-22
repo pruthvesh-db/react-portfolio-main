@@ -21,7 +21,7 @@ export const Hero = () => {
           return abt.id == id  && <section className={styles.container}>
           
           <div className={styles.content}>
-          <h1 className={styles.title}>{abt.selfIntro}</h1>
+          <h1 className={`${styles.title} ${styles.anim}`}>{abt.selfIntro}</h1>
           <p className={styles.description}>{abt.tagline}</p>
           <a href={'mailto:'+`${abt.emailId}`} className={styles.contactBtn}> Contact Me </a>
           </div>
@@ -29,7 +29,7 @@ export const Hero = () => {
           <img
           src={getImageUrl(`${abt.imageSrc}`)}
           alt="Hero image of me"
-          className={styles.heroImg}/>
+          className={`${styles.heroImg} ${styles.anim}`}/>
       
           </section>
         })}

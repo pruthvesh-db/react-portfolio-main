@@ -4,6 +4,7 @@
     "name": "Pruthvesh Chocha",
     "tagline": "I specialize in creating robust backend solutions using Node.js, Express.js, and various databases.",
     "selfIntro": "Hi, I am Pruthvesh",
+    "description": "Design & Developement",
     "imageSrc": "hero/pruthvesh.jpeg",
     "emailId": "chochapruthvesh@gmail.com",
     "contact": "+91 94082 88929",
@@ -14,6 +15,7 @@
     "id": "parth",
     "name": "Parth Kaneriya",
     "selfIntro": "Hi, I am Parth",
+    "description": "Design & Developement",
     "tagline": "Test for tagline attribute working.",
     "imageSrc": "hero/parth.jpeg",
     "emailId": "https://www.github.com",
@@ -22,9 +24,10 @@
     "github": "github.com/parthkk17"
   },
   {
-    "id": 3,
+    "id": "sanket",
     "name": "Sanket Kalariya",
     "selfIntro": "Hi, I am Sanket",
+    "description": "Design & Developement",
     "tagline": "Test for tagline attribute working.",
     "imageSrc": "hero/sanket.jpeg",
     "emailId": "https://www.github.com",
@@ -33,9 +36,10 @@
     "github": ""
   },
   {
-    "id": 4,
+    "id": "kudip",
     "name": "Kuldip Patel",
     "selfIntro": "Hi, I am Kuldipkumar",
+    "description": "Design & Developement",
     "tagline": "Test for tagline attribute working.",
     "imageSrc": "hero/kuldip.jpeg",
     "emailId": "https://www.github.com",
@@ -44,9 +48,10 @@
     "github": ""
   },
   {
-    "id": 5,
+    "id": "nisarg",
     "name": "Nisarg Patel",
     "selfIntro": "Hi, I am Nisarg",
+    "description": "Design & Developement",
     "tagline": "Test for tagline attribute working.",
     "imageSrc": "hero/nisarg.jpeg",
     "emailId": "https://www.github.com",
