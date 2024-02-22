@@ -1,5 +1,5 @@
 // import styles from "./App.module.css";
-import './App.css';
+import './app.css';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
