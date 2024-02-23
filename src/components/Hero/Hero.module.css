@@ -91,12 +91,12 @@
 
 .bottomBlur {
   position: absolute;
-  width: 70vw;
+  width: 50vw;
   height: 50vw;
   min-width: 350px;
   min-width: 250px;
   top: 246px;
-  right: -25vw;
+  right: 0vw;
   border-radius: 764px;
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
@@ -110,6 +110,10 @@
 
   .content {
     align-items: center;
+  }
+  .title {
+    margin-top: 5%;
+    font-size: 45px;
   }
 }
 

@@ -19,23 +19,23 @@ export const Contact = () => {
     {projects.map((abt) => {
 
           return abt.id == id  && <ul className={styles.links}>
-          <li className={styles.link}>
-              <img src={getImageUrl("contact/call.png")} alt="Call icon" />
+          <li className={`${styles.link} ${styles.longtext}`}>
+              <img src={getImageUrl("contact/call.png")} alt="Call icon" className={styles.imgIcon}/>
               <a href={'tel:'+`${abt.contact}`}>{abt.contact}</a>
             </li>
-            <li className={styles.link}>
-              <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+            <li className={`${styles.link} ${styles.longtext}`}>
+              <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" className={styles.imgIcon}/>
               <a href={'mailto:'+`${abt.emailId}`}>{abt.emailId}</a>
             </li>
-            <li className={styles.link}>
+            <li className={`${styles.link} ${styles.longtext}`}>
               <img
                 src={getImageUrl("contact/linkedinIcon.png")}
-                alt="LinkedIn icon"
+                alt="LinkedIn icon" className={styles.imgIcon}
               />
               <a href={'https://www.'+`${abt.linkedIn}`}>{abt.linkedIn}</a>
             </li>
-            <li className={styles.link}>
-              <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
+            <li className={`${styles.link} ${styles.longtext}`}>
+              <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" className={styles.imgIcon}/>
               <a href={'https://www.'+`${abt.github}`}>{abt.github}</a>
             </li>
           </ul>

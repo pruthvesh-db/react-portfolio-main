@@ -8,6 +8,7 @@
     "imageSrc": "hero/pruthvesh.jpeg",
     "emailId": "chochapruthvesh@gmail.com",
     "contact": "+91 94082 88929",
+    "whatsapp": "919408288929",
     "linkedIn": "linkedin.com/in/pruthveshchocha/",
     "github": "github.com/pruthveshchocha"
   },
@@ -18,8 +19,9 @@
     "description": "Design & Developement",
     "tagline": "Test for tagline attribute working.",
     "imageSrc": "hero/parth.jpeg",
-    "emailId": "https://www.github.com",
+    "emailId": "kaneriya.parth@gmail.com",
     "contact": "+91 79908 31039",
+    "whatsapp": "919033417326",
     "linkedIn": "linkedin.com/in/kaneriyaparth/",
     "github": "github.com/parthkk17"
   },
@@ -30,8 +32,9 @@
     "description": "Design & Developement",
     "tagline": "Test for tagline attribute working.",
     "imageSrc": "hero/sanket.jpeg",
-    "emailId": "https://www.github.com",
-    "contact": "",
+    "emailId": "kalariyasanket@gmail.com",
+    "contact": "+91 89803 86068",
+    "whatsapp": "918980386068",
     "linkedIn": "",
     "github": ""
   },
@@ -42,8 +45,9 @@
     "description": "Design & Developement",
     "tagline": "Test for tagline attribute working.",
     "imageSrc": "hero/kuldip.jpeg",
-    "emailId": "https://www.github.com",
-    "contact": "",
+    "emailId": "patelkuldip1997@gmail.com",
+    "contact": "+91 78743 69355",
+    "whatsapp": "917874369355",
     "linkedIn": "",
     "github": ""
   },
@@ -56,6 +60,7 @@
     "imageSrc": "hero/nisarg.jpeg",
     "emailId": "https://www.github.com",
     "contact": "",
+    "whatsapp": "",
     "linkedIn": "",
     "github": ""
   }

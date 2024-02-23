@@ -35,7 +35,7 @@
 
 .link {
   display: flex;
-  align-items: center;
+  align-items: left;
   gap: 25px;
 }
 
@@ -47,10 +47,22 @@
   letter-spacing: 1.5px;
 }
 
+.longtext {
+  word-break: break-all;
+}
+
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
-    gap: 23px;
+    padding: 5% 5%;
+
+    /* gap: 13px; */
+  }
+
+  .imgIcon {
+    width: 50px;
+    height: 50px;
+    margin: auto;
   }
 
   .text {
@@ -59,7 +71,25 @@
     align-items: center;
   }
 
+  .text p {
+    font-size: 30px;
+  }
+
+  .longtext {
+    word-wrap: break-all;
+  }
+
+  /* .link a {
+    font-size: 15px;
+    font-weight: 400;
+    
+  } */
+
   .links {
-    align-items: center;
+    align-items: left;
+  }
+  .link {
+    align-items: left;
+
   }
 }
