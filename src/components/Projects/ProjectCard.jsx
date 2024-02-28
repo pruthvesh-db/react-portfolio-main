@@ -23,8 +23,8 @@ export const ProjectCard = ({
       <div className={styles.name}>{name}</div>
       <div className={styles.about}>{description}</div>
       <div className={styles.socialIcons}>
-        <a href={'mailto:'+`${emailId}`} className={styles.fb}><i className="fa-solid fa-envelope"></i></a>
-        <a href={'http://wa.me/'+`${whatsapp}`} className={styles.twitter}><i className="fa-brands fa-whatsapp"></i></a>
+        <a href={'mailto:'+`${emailId}`} className={styles.email}><i className="fa-solid fa-envelope"></i></a>
+        <a href={'http://wa.me/'+`${whatsapp}`} className={styles.whatsapp}><i className="fa-brands fa-whatsapp"></i></a>
         </div>
       <div className={styles.buttons}>
 

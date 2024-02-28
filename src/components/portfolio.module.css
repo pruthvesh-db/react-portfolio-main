@@ -1,0 +1,7 @@
+@import "../vars.css";
+
+@media screen and (max-width: 400px) {
+    .zoomout {
+        zoom: 0.6;
+    }
+}

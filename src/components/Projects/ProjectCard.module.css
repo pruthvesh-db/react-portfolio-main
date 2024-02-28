@@ -125,11 +125,11 @@ body{
   height: 100%;
   line-height: 40px;
 }
-.socialIcons a.fb i{
+.socialIcons a.email i{
   color: #4267B2;
 }
-.socialIcons a.twitter i{
-  color: #1DA1F2;
+.socialIcons a.whatsapp i{
+  color: #2ab13f;
 }
 .socialIcons a.insta i{
   color: #E1306C;
