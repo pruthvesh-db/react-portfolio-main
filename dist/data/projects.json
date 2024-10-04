@@ -1,0 +1,67 @@
+[
+  {
+    "id": "pruthvesh",
+    "name": "Pruthvesh Chocha",
+    "tagline": "I specialize in creating robust backend solutions using Node.js, Express.js, and various databases.",
+    "selfIntro": "Hi, I am Pruthvesh",
+    "description": "Design & Developement",
+    "imageSrc": "hero/pruthvesh.jpeg",
+    "emailId": "chochapruthvesh@gmail.com",
+    "contact": "+91 94082 88929",
+    "whatsapp": "919408288929",
+    "linkedIn": "linkedin.com/in/pruthveshchocha/",
+    "github": "github.com/pruthveshchocha"
+  },
+  {
+    "id": "parth",
+    "name": "Parth Kaneriya",
+    "selfIntro": "Hi, I am Parth",
+    "description": "Design & Developement",
+    "tagline": "Test for tagline attribute working.",
+    "imageSrc": "hero/parth.jpeg",
+    "emailId": "kaneriya.parth@gmail.com",
+    "contact": "+91 79908 31039",
+    "whatsapp": "919033417326",
+    "linkedIn": "linkedin.com/in/kaneriyaparth/",
+    "github": "github.com/parthkk17"
+  },
+  {
+    "id": "sanket",
+    "name": "Sanket Kalariya",
+    "selfIntro": "Hi, I am Sanket",
+    "description": "Design & Developement",
+    "tagline": "Test for tagline attribute working.",
+    "imageSrc": "hero/sanket.jpeg",
+    "emailId": "kalariyasanket@gmail.com",
+    "contact": "+91 89803 86068",
+    "whatsapp": "918980386068",
+    "linkedIn": "",
+    "github": ""
+  },
+  {
+    "id": "kudip",
+    "name": "Kuldip Patel",
+    "selfIntro": "Hi, I am Kuldipkumar",
+    "description": "Design & Developement",
+    "tagline": "Test for tagline attribute working.",
+    "imageSrc": "hero/kuldip.jpeg",
+    "emailId": "patelkuldip1997@gmail.com",
+    "contact": "+91 78743 69355",
+    "whatsapp": "917874369355",
+    "linkedIn": "",
+    "github": ""
+  },
+  {
+    "id": "nisarg",
+    "name": "Nisarg Patel",
+    "selfIntro": "Hi, I am Nisarg",
+    "description": "Design & Developement",
+    "tagline": "Test for tagline attribute working.",
+    "imageSrc": "hero/nisarg.jpeg",
+    "emailId": "https://www.github.com",
+    "contact": "",
+    "whatsapp": "",
+    "linkedIn": "",
+    "github": ""
+  }
+]

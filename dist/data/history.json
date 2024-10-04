@@ -1,0 +1,38 @@
+[
+  {
+    "id": "pruthvesh",
+    "role": "Associate Solution Engineer",
+    "organisation": "FarEye Technlogies Pvt. Ltd.",
+    "startDate": "March 2022",
+    "endDate": "Present",
+    "experiences": ["Working with a Goverment Project", "Designed the Comodity Tracking System"],
+    "imageSrc": "history/fareye2.png"
+  },
+  {
+    "id": "pruthvesh",
+    "role": "Support Engineer",
+    "organisation": "Autobits Labs Pvt. Ltd.",
+    "startDate": "March 2021",
+    "endDate": "March 2022",
+    "experiences": ["Worked on IOT Systems", "Helps to increase Industrial Efficiancy"],
+    "imageSrc": "history/autobits.png"
+  },
+  {
+    "id": "parth",
+    "role": "Testing Engineer",
+    "organisation": "XYZ Labs Pvt. Ltd.",
+    "startDate": "March 2021",
+    "endDate": "March 2022",
+    "experiences": ["Worked on IOT Systems", "Helps to increase Industrial Efficiancy"],
+    "imageSrc": "history/autobits.png"
+  },
+  {
+    "id": "parth",
+    "role": "Software Engineer",
+    "organisation": "Autobits Labs Pvt. Ltd.",
+    "startDate": "March 2017",
+    "endDate": "November 2022",
+    "experiences": ["Worked on IOT Systems", "Helps to increase Industrial Efficiancy"],
+    "imageSrc": "history/autobits.png"
+  }
+]

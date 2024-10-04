@@ -30,7 +30,7 @@ export const ProjectCard = ({
 
         {/* <a href="http://"></a> */}
        
-        <button><Link to={`/portfolio/${id}`} > Visit Profile </Link></button>
+        <button><Link to={`/${id}`} > Visit Profile </Link></button>
       </div>
       
         </div>

@@ -1,11 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
-import projects from "../../data/projects.json";
+// import projects from "../../data/projects.json";
+// import projects from "../../../data/projects.json";
 import { useParams } from 'react-router-dom';
 
 export const Contact = () => {
+
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = async () => {
+    try {
+      const response = await fetch('/data/projects.json');
+      if (!response.ok) {
+        throw new Error('Failed to fetch data');
+      }
+      const projectsdata = await response.json();
+      setData(projectsdata);
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  };
 
   const { id } = useParams();
 
@@ -16,7 +36,7 @@ export const Contact = () => {
         <p>Feel free to reach out!</p>
       </div>
 
-    {projects.map((abt) => {
+    {data.map((abt) => {
 
           return abt.id == id  && <ul className={styles.links}>
           <li className={`${styles.link} ${styles.longtext}`}>

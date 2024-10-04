@@ -26,7 +26,7 @@ function App() {
       {/* <Route path="/pruthvesh" element={<Pruthvesh />} />
       <Route path="/parth" element={<Pruthvesh />} /> */}
        <Route path="/" exact element={<Projects />} />
-       <Route path="/portfolio/:id" element={<Portfolio />} />
+       <Route path="/:id" element={<Portfolio />} />
       {/* <Route path="/" element={<Projects />} /> */}
       </Routes>
       {/* <Landing /> */}
